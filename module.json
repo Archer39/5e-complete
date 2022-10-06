@@ -1,0 +1,148 @@
+{
+    "id": "5e-complete",
+    "name": "5e-complete",
+    "title": "5e Complete Compendium",
+    "description": "<p>The complete 5e compendium.</p>",
+    "version": "0.1.0",
+    "minimumCoreVersion": "0.6.0",
+    "compatibleCoreVersion": "10",
+    "compatibility": {
+        "minimum": "0.6.0",
+        "verified": "10"
+    },
+    "author": "btbias",
+    "authors": [
+        {
+          "name": "btbias"
+        }
+    ],
+    "packs": [
+        {
+            "name": "5e-creatures",
+            "label": "5e Creatures",
+            "path": "packs/5e-creatures.db",
+            "entity": "Actor",
+            "type": "Actor",
+            "package": "5e-complete"
+        },
+        {
+            "name": "5e-backgrounds",
+            "label": "5e Backgrounds",
+            "path": "packs/5e-backgrounds.db",
+            "entity": "Item",
+            "type": "Item",
+            "package": "5e-complete"
+        },
+        {
+            "name": "5e-background-features",
+            "label": "5e Background Features",
+            "path": "packs/5e-background-features.db",
+            "entity": "Item",
+            "type": "Item",
+            "package": "5e-complete"
+        },
+        {
+            "name": "5e-classes",
+            "label": "5e Classes",
+            "path": "packs/5e-classes.db",
+            "entity": "Item",
+            "type": "Item",
+            "package": "5e-complete"
+        },
+        {
+            "name": "5e-class-features",
+            "label": "5e Class Features",
+            "path": "packs/5e-class-features.db",
+            "entity": "Item",
+            "type": "Item",
+            "package": "5e-complete"
+        },
+        {
+            "name": "5e-feats",
+            "label": "5e Feats",
+            "path": "packs/5e-feats.db",
+            "entity": "Item",
+            "type": "Item",
+            "package": "5e-complete"
+        },
+        {
+            "name": "5e-items",
+            "label": "5e Items",
+            "path": "packs/5e-items.db",
+            "entity": "Item",
+            "type": "Item",
+            "package": "5e-complete"
+        },
+        {
+            "name": "5e-monster-features",
+            "label": "5e Monster Features",
+            "path": "packs/5e-monster-features.db",
+            "entity": "Item",
+            "type": "Item",
+            "package": "5e-complete"
+        },
+        {
+            "name": "5e-races",
+            "label": "5e Races",
+            "path": "packs/5e-races.db",
+            "entity": "Item",
+            "type": "Item",
+            "package": "5e-complete"
+        },
+        {
+            "name": "5e-racial-features",
+            "label": "5e Racial Features",
+            "path": "packs/5e-racial-features.db",
+            "entity": "Item",
+            "type": "Item",
+            "package": "5e-complete"
+        },
+        {
+            "name": "5e-spells",
+            "label": "5e Spells",
+            "path": "packs/5e-spells.db",
+            "entity": "Item",
+            "type": "Item",
+            "package": "5e-complete"
+        },
+        {
+            "name": "5e-subclasses",
+            "label": "5e Subclasses",
+            "path": "packs/5e-subclasses.db",
+            "entity": "Item",
+            "type": "Item",
+            "package": "5e-complete"
+        },
+        {
+            "name": "5e-journals",
+            "label": "5e Journals",
+            "path": "packs/5e-journals.db",
+            "entity": "JournalEntry",
+            "type": "JournalEntry",
+            "package": "5e-complete"
+        },
+        {
+            "name": "5e-macros",
+            "label": "5e Macros",
+            "path": "packs/5e-macros.db",
+            "entity": "Macro",
+            "type": "Macro",
+            "package": "5e-complete"
+        },
+        {
+            "name": "5e-roll-tables",
+            "label": "5e Roll Tables",
+            "path": "packs/5e-roll-tables.db",
+            "entity": "RollTable",
+            "type": "RollTable",
+            "package": "5e-complete"
+        }
+    ],
+    "relationships": {
+        "systems": [
+            {
+                "id": "dnd5e"
+            }
+        ]
+    }
+}
