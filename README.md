@@ -1,4 +1,4 @@
-# 5e-Complete
+# 5e Complete
 The full D&amp;D 5th Edition compendium for Foundry VTT.
 
 This module was designed to fill in the holes of the 5e SRD that's included with Foundry, including all of the official classes and their subclasses, spells, races, and so on.
