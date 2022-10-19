@@ -1,0 +1,36 @@
+/* GENERAL */
+section.blue-note {
+    padding: 0 5px;
+    background: rgb(0 0 125 / 5%);
+    border-top: 1px solid var(--color-border-dark-5);
+    border-bottom: 1px solid var(--color-border-dark-5);
+    font-style: italic;
+}
+
+/* PORTENT */
+[class^="dice-roll-columns"], [class*= " dice-roll-columns"] {
+    margin: 0 5px 0 0 !important;
+    float: left;
+}
+.dice-roll-columns-2 { width: 48.1%; }
+.dice-roll-columns-3 { width: 31.4%; }
+.portent-dialog-1, .portent-dialog-2, .portent-dialog-3 {
+    height: 165px !important;
+}
+[class^="portent-dialog"] .dialog-buttons, [class*=" portent-dialog"] .dialog-buttons {
+    display: grid;
+    justify-content: space-around;
+    gap: 0.4em;
+}
+.portent-dialog-2 .dialog-buttons {
+    grid-template-columns: 49% 49%;
+}
+.portent-dialog-3 .dialog-buttons {
+    grid-template-columns: 32% 32% 32%;
+}
+[class^="portent-dialog"] button, [class*=" portent-dialog"] button {
+    height: 48px;
+}
+[class^="portent-dialog"] button.reset, [class*=" portent-dialog"] button.reset {
+    width: 384px;
+}
