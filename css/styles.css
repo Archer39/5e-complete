@@ -1,10 +1,24 @@
 /* GENERAL */
-section.blue-note {
+section.[class^="note"] {
     padding: 0 5px;
-    background: rgb(0 0 125 / 5%);
     border-top: 1px solid var(--color-border-dark-5);
     border-bottom: 1px solid var(--color-border-dark-5);
-    font-style: italic;
+}
+section.note-black { background: rgb(0 0 0 / 5%); }
+section.note-blue { background: rgb(0 0 125 / 5%); }
+section.note-purple { background: rgb(53 0 121 / 5%); }
+table.spell-list th, table.spell-list td { padding: 2px; }
+table.spell-list td { height: 42px; }
+table.spell-list span.component {
+    cursor: default;
+    font-size: 13px;
+    color: dimgray;
+    background: #DDD;
+    padding: 1px 8px;
+    border-radius: 3px;
+    border: 1px solid dimgray;
+    white-space: nowrap;
+    word-break: break-all;
 }
 
 /* PORTENT */
