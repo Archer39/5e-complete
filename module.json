@@ -154,6 +154,6 @@
     ],
     "url": "https://github.com/btbias/5e-complete",
     "manifest": "https://github.com/btbias/5e-complete/releases/latest/download/module.json",
-    "download": "https://github.com/btbias/5e-complete/releases/download/v0.3.0/module.zip",
+    "download": "https://github.com/btbias/5e-complete/releases/download/v0.3.1/module.zip",
     "description": "This module adds classes, subclasses, and other items missing from the D&D 5e SRD"
 }
