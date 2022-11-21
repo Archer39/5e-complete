@@ -10,7 +10,7 @@ A special thanks goes to my friends that have helped get this compendium to wher
 - This is a work in progress; many class features, spells, races, backgrounds, and feats are still missing.
 - The creatures have image references that you won't have, and I can't think of a way around that. Sorry.
 
-## Recommendation Modules
+## Recommended Modules
 5e Complete has been designed utilizing the following modules and are recommended (but not required):
 - [Dice So Nice](https://gitlab.com/riccisi/foundryvtt-dice-so-nice)
 - [Dynamic Active Effects](https://gitlab.com/tposney/dae)
