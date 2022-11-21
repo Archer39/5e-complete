@@ -5,16 +5,20 @@ This module was designed to fill in the holes of the 5e SRD that's included with
 
 A special thanks goes to my friends that have helped get this compendium to where it is, and also a big thank you to [Zhell](https://github.com/krbz999?tab=repositories) for helping with the macros.
 
-# Disclaimers
-- Please only utilize the resources in this module that you personally own. Treat this as you would downloading a video game ROM and respect the copyright of Wizards of the Coast.
+## Disclaimers
+- Please only utilize the resources in this module that you personally own. Treat this as you would downloading a video game ROM and respect the copyright of Wizards of the Coast and other 3rd parties whose homebrew content has been imported (homebrew sources have an asterisk at the end *)
 - This is a work in progress; many class features, spells, races, backgrounds, and feats are still missing.
 - The creatures have image references that you won't have, and I can't think of a way around that. Sorry.
 
-# Dependencies
-5e Complete should work out of the box without any other modules. That said, the following modules are recommended for QoL improvements:
-- Dynamic Active Effects
-- Item Macro
-- Magic Items
-- Roll Groups
-- Tidy5e Sheet
-- Wild Magic Surge 5e
+## Recommendation Modules
+5e Complete has been designed utilizing the following modules and are recommended (but not required):
+- [Dice So Nice](https://gitlab.com/riccisi/foundryvtt-dice-so-nice)
+- [Dynamic Active Effects](https://gitlab.com/tposney/dae)
+- [Item Macro](https://github.com/sdenec/tidy5e-sheet)
+- [Magic Items](https://gitlab.com/riccisi/foundryvtt-magic-items)
+- [Roll Groups](https://github.com/krbz999/rollgroups)
+- [Tidy5e Sheet](https://github.com/sdenec/tidy5e-sheet)
+- [Wild Magic Surge 5e](https://github.com/johnnolan/wild-magic-surge-5e)
+
+### Final Remarks
+Thank you for trying out my module! Please provide feedback on what might be broken or missing. A massive task that I could use help with is automation and creating macros, so should you ever download this module and create your own macros I'd love to import them!
