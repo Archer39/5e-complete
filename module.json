@@ -1,7 +1,7 @@
 {
     "id": "5e-complete",
     "title": "5e Complete Compendium",
-    "version": "0.3.0",
+    "version": "0.3.1",
     "authors": [
         {
             "name": "btbias",
@@ -12,7 +12,7 @@
     "compatibility": {
             "minimum": "10",
             "maximum": "10",
-            "verified": "10.288"
+            "verified": "10.290"
     },
     "styles": [
         "css/styles.css"
@@ -72,6 +72,14 @@
             "package": "5e-complete"
         },
         {
+            "name": "5e-creature-abilities",
+            "label": "5e Creature Abilities",
+            "path": "packs/5e-creature-abilities.db",
+            "entity": "Item",
+            "type": "Item",
+            "package": "5e-complete"
+        },
+        {
             "name": "5e-feats",
             "label": "5e Feats",
             "path": "packs/5e-feats.db",
@@ -83,14 +91,6 @@
             "name": "5e-items",
             "label": "5e Items",
             "path": "packs/5e-items.db",
-            "entity": "Item",
-            "type": "Item",
-            "package": "5e-complete"
-        },
-        {
-            "name": "5e-monster-features",
-            "label": "5e Monster Features",
-            "path": "packs/5e-monster-features.db",
             "entity": "Item",
             "type": "Item",
             "package": "5e-complete"
@@ -149,6 +149,14 @@
             "path": "packs/5e-roll-tables.db",
             "entity": "RollTable",
             "type": "RollTable",
+            "package": "5e-complete"
+        },
+        {
+            "name": "5e-trade-goods",
+            "label": "5e Trade Goods",
+            "path": "packs/5e-trade-goods.db",
+            "entity": "Item",
+            "type": "Item",
             "package": "5e-complete"
         }
     ],
